@@ -1,0 +1,96 @@
+/* regole generali */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+ color: grey;
+ text-decoration: none;
+}
+a:hover{
+ color: white;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* barra laterale */
+#menu{
+  width: 200px;
+  height: 91vh;
+  background-color: black;
+  padding: 5px 10px;
+  float: left;
+}
+.playlist a{
+  padding-top: 35px;
+}
+.playlist i{
+  height: 30px;
+}
+
+header img{
+  height: 40px;
+  width: 150px;
+}
+
+header i{
+  color: grey;
+  font-size: 20px;
+  padding: 5px 5px;
+}
+header a{
+  font-size: 12px;
+}
+header h2{
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.download{
+  padding-top: 95px;
+  color: grey;
+}
+.download i{
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.account i{
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.account a{
+  color: white;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#upgrade{
+  height: 100px;
+  width: calc(100% - 200px);
+  background-color: black;
+  opacity: 0.9;
+  float: left;
+}
+
+#libreria{
+  float: left;
+  min-height: 450px;
+  width: calc(100% - 200px);
+  background-color: black;
+  opacity: 0.8;
+}
+
+footer{
+  height: 9vh;
+  width: 100%;
+  background-color: grey;
+}
