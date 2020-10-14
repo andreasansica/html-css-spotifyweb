@@ -26,13 +26,20 @@ a:hover{
   padding: 5px 10px;
   float: left;
 }
+.playlist{
+  overflow: auto;
+}
 .playlist a{
   padding-top: 35px;
 }
 .playlist i{
   height: 30px;
 }
-
+header{
+  width: 200px;
+  float: left;
+  position: fixed;
+}
 header img{
   height: 40px;
   width: 150px;
@@ -79,18 +86,143 @@ header h2{
   background-color: black;
   opacity: 0.9;
   float: left;
+  position: fixed;
+  margin-left: 200px;
 }
+#upgrade button{
+  color: white;
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 200px;
+  height: 35px;
+  background-color: black;
+  float: right;
+  text-align: center;
+  margin-top: 25px;
+}
+#upgrade button{
+  color: grey;
+  transition: all;
+}
+#upgrade button:hover{
+  width: 220px;
+  height: 40px;
+}
+
 
 #libreria{
   float: left;
-  min-height: 450px;
+  min-height: 495px;
   width: calc(100% - 200px);
-  background-color: black;
-  opacity: 0.8;
+  background-color: #282828;
+  overflow: auto;
+  margin-top: 100px;
+  margin-left: 200px;
 }
+#navbar{
+  width: 50%;
+  margin-left: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#navbar a{
+  font-size: 12px;
+  transition: all;
+}
+#navbar a:active{
+  text-decoration: underline 2px green;
+}
+
+#libreria h1{
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+}
+.song{
+  display: flex;
+  justify-content: space-around;
+}
+.song img{
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: all;
+
+}
+ img:hover{
+  opacity: 0.2;
+
+}
+.descrizione{
+  display: flex;
+  justify-content: space-around;
+}
+.descrizione h2{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.descrizione p{
+  color: grey;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+
+.personalizzazione h1{
+  margin-top: 40px;
+}
+.personalizzazione p{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 13px;
+  padding-left: 20px;
+}
+.personalizzazione img{
+  height: 150px;
+  padding:0 20px;
+}
+.descrizione7{
+  color: white;
+  font-size: 10px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.descrizione8{
+  color: white;
+  font-size: 10px;
+  padding-left: 105px;
+  display: inline-block;
+}
+
+.popular h1{
+  margin-top: 40px;
+}
+.popular p{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 13px;
+  padding-left: 20px;
+}
+.popular img{
+  height: 150px;
+  padding: 0 20px;
+}
+
+
+
 
 footer{
   height: 9vh;
   width: 100%;
+  float: left;
   background-color: grey;
+  position: fixed;
+  margin-top: 91vh;
 }
