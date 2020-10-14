@@ -221,8 +221,79 @@ header h2{
 footer{
   height: 9vh;
   width: 100%;
-  float: left;
-  background-color: grey;
+  background-color: black;
   position: fixed;
   margin-top: 91vh;
+  display: flex;
+  justify-content: space-between;
+}
+.parte-sinistra{
+  display: flex;
+  width: 20%;
+}
+.parte-sinistra img{
+  height: 50px;
+  width: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+  float: left;
+  display: block;
+}
+.parte-sinistra h2 h3{
+  float: left;
+  display: block;
+}
+.parte-sinistra h2{
+  color: white;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.parte-sinistra h3{
+  color:grey;
+  margin-left: 10px;
+  font-size: 12px;
+
+}
+.parte-sinistra i{
+  color: grey;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.parte-centrale{
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+.bottoni-riproduzione{
+  margin-left: 135px;
+}
+.bottoni-riproduzione i{
+  color: white;
+  font-size: 18px;
+margin-left: 30px;
+}
+.bottoni-riproduzione p{
+  color: white;
+}
+.barra{
+    background-color: grey;
+    border-radius: 10px;
+    width: 400px;
+    height: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.parte-destra{
+  display: flex;
+  width: 20%;
 }
