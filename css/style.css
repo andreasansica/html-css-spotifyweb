@@ -148,6 +148,8 @@ header h2{
 .song{
   display: flex;
   justify-content: space-around;
+  overflow-x: auto;
+  flex-grow: 1;
 }
 .song img{
   height: 150px;
@@ -266,14 +268,12 @@ footer{
 }
 
 .parte-centrale{
-  display: flex;
+
   width: 40%;
-  align-items: center;
 }
 .bottoni-riproduzione{
-
-  display: flex;
-
+  width: 100%;
+  height: 25px;
 }
 .bottoni-riproduzione i{
   color: white;
@@ -284,16 +284,24 @@ margin-left: 30px;
   color: white;
 }
 .barra{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+
+}
+.player{
     background-color: grey;
     border-radius: 10px;
-    width: 350px;
+    width: 70%;
     height: 3px;
     cursor: pointer;
-    margin-top: 30px;
 }
-.bottoni{
-  height: 10px;
 
+.bottoni{
+width: 100%;
+text-align: center;
+padding-top: 5px;
 }
 #minuto-sinistra{
   text-align: left;
@@ -326,4 +334,18 @@ margin-left: 30px;
   cursor: pointer;
   margin-top: 25px;
   margin-left: 25px;
+}
+
+
+/* header versione mobile */
+
+
+@media all and (max-widht:530px) {
+  #menu{
+    display: none;
+  }
+}
+
+@media all and(max-width:) {
+
 }
