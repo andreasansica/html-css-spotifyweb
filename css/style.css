@@ -293,7 +293,7 @@ margin-left: 30px;
 }
 .bottoni{
   height: 10px;
-  
+
 }
 #minuto-sinistra{
   text-align: left;
@@ -312,4 +312,18 @@ margin-left: 30px;
 .parte-destra{
   display: flex;
   width: 20%;
+}
+.parte-destra a{
+  color: white;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.barra-volume{
+  background-color: grey;
+  border-radius: 10px;
+  width: 100px;
+  height: 3px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 25px;
 }
